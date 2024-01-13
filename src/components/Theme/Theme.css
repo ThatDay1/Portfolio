@@ -1,0 +1,20 @@
+.Bg-toggler {
+  background: var(--color-light);
+  height: 2.8rem;
+  width: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  z-index: 100;
+  transition: var(--transition);
+}
+
+.Bg-toggler:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}

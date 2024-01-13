@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--color-white);
+  background-color: var(--color-body);
   color: var(--color-grey);
 }
 
@@ -28,6 +28,10 @@ h3,
 h4 {
   color: var(--color-grey);
   font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h1 span {

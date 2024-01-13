@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Nav.css'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { navLinks } from '../../data/Data'
 
 const Nav = () => {
+  const [showMenu, setShowMenu] = useState(false)
+
+  const MenuHandler = () => {
+    setShowMenu(!showMenu)
+  }
+
   return (
     <nav>
-      <ul className="navlinks">
+      <ul className={`${showMenu ? 'navlinks navlinks-show' : 'navlinks'}`}>
         {navLinks.map(({ id, name, path, icon }) => {
           return (
             <li className="nav-item" key={id}>
@@ -26,7 +32,10 @@ const Nav = () => {
           )
         })}
       </ul>
-      <div className="nav-toggle nav-close">
+      <div
+        className={`${showMenu ? 'nav-toggle nav-close' : 'nav-toggle'}`}
+        onClick={MenuHandler}
+      >
         <span></span>
         <span></span>
         <span></span>
