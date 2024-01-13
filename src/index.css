@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #a2012d;
+  --color-white: #fff;
+  --color-light: #e6e6e6;
+  --color-lightEx: #cccccc;
+  --color-grey: #666666;
+  --color-black: #000;
+
+  --transition: 0.4s ease;
+}
