@@ -96,36 +96,53 @@ export const services = [
 
 
 
-import protfoliImg1 from '../../src/assets/p1.jpg'
-import protfoliImg2 from '../../src/assets/p2.jpg'
-import protfoliImg3 from '../../src/assets/p3.jpg'
+import protfoliImg1 from '../../src/assets/p1.png'
+import protfoliImg2 from '../../src/assets/p2.png'
+import protfoliImg3 from '../../src/assets/p3.png'
+import protfoliImg4 from '../../src/assets/p4.png'
+import protfoliImg5 from '../../src/assets/p5.png'
+import protfoliImg6 from '../../src/assets/p6.png'
 export const portfolio = [
     {
         id: 1,
         img: protfoliImg1,
         name: 'Modern-Business',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github: '#',
+        des: 'An implementation of Modern UI/UX Business App in React Js with Tailwind Css',
+        github: 'https://modern-business-app.vercel.app',
     },
     {
         id: 1,
         img: protfoliImg2,
-        name: 'Project-2',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github: '#',
+        name: 'University-Website',
+        des: 'An implementation of a full responsive multi page',
+        github: 'https://university-website-olive.vercel.app',
     },
     {
         id: 1,
         img: protfoliImg3,
-        name: 'Project-3',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github: '#',
+        name: 'Barber-Shop',
+        des: 'An implementation of a barber shopping site useing html and css',
+        github: 'https://barber-shop-ten-jade.vercel.app',
     },
     {
         id: 1,
-        img: protfoliImg3,
-        name: 'Project-4',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github: '#',
+        img: protfoliImg4,
+        name: 'GPT-3-OpenAI-Website',
+        des: 'An implementation of a Modern UI/UX GPT-3 live site using React Js',
+        github: 'https://gpt-3-open-ai-website.vercel.app',
+    },
+    {
+        id: 1,
+        img: protfoliImg5,
+        name: 'Hiking-Landing',
+        des: 'An implementation of a hiking guide page',
+        github: 'https://hiking-landing-beta.vercel.app',
+    },
+    {
+        id: 1,
+        img: protfoliImg6,
+        name: 'Word-Guessing-Game',
+        des: 'An implementation of a guess game',
+        github: 'https://word-guessing-game-snowy.vercel.app',
     },
 ];
