@@ -32,28 +32,23 @@ export const navLinks = [
 export const experience = [
     {
         id: 1,
-        no: '2+',
-        title: 'Years Experience'
+        no: 'Education',
+        title: 'Computer Education and Instructional Technology'
     },
     {
         id: 2,
         no: '10+',
         title: 'Complete Projects'
-    },
-    {
-        id: 3,
-        no: '3+',
-        title: 'Happy Clintes'
-    },
+    }
 ];
 
 
-import image1 from '../../src/assets/python.png'
+import image1 from '../../src/assets/javascript.png'
 import image2 from '../../src/assets/react.png'
-import image3 from '../../src/assets/node.png'
-import image4 from '../../src/assets/figma.png'
-import image5 from '../../src/assets/ps.png'
-import image6 from '../../src/assets/sketch.png'
+import image3 from '../../src/assets/tailwind.png'
+import image4 from '../../src/assets/html.png'
+import image5 from '../../src/assets/node.png'
+import image6 from '../../src/assets/css.png'
 export const tools = [
     {
         id: 1,
@@ -88,20 +83,14 @@ export const services = [
         id: 1,
         icon: faCode,
         name: 'Web Development',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
+        des: 'Specializing in web development, I bring a keen eye for design and a proficiency in the latest technologies to create immersive, responsive and visually stunning websites that leave a lasting impression.'
     },
     {
         id: 2,
         icon: faCodeBranch,
         name: 'Apps Development',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
-    },
-    {
-        id: 3,
-        icon: faCodeCompare,
-        name: 'Python Customize',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
-    },
+        des: 'As an app development enthusiast, I leverage cutting-edge technologies to craft use-friendly applications, ensuring a delightful user experience while staying at the forefront of innovation in the ever-evolving world of technology.'
+    }
 ];
 
 

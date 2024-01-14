@@ -4,16 +4,45 @@ import HeadingText from '../../components/HeadingText/HeadingText.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
+const onSubmit = async (event) => {
+  event.preventDefault()
+  const formData = new FormData(event.target)
+
+  formData.append('access_key', 'c932b4ca-793a-4205-b421-cd52607473d6')
+
+  const object = Object.fromEntries(formData)
+  const json = JSON.stringify(object)
+
+  const res = await fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: json,
+  }).then((res) => res.json())
+
+  if (res.success) {
+    console.log('Success', res)
+    alert('success')
+  }
+}
+
 const Contact = () => {
   return (
     <>
       <section>
         <HeadingText title={'Contact'} titlePrimary={'Me'} />
         <div className="container contact-container">
-          <form action="#">
-            <input type="text" required placeholder="Your Name" />
-            <input type="email" required placeholder="Your Email" />
-            <input type="number" required placeholder="Your Number" />
+          <form onSubmit={onSubmit}>
+            <input type="text" name="name" required placeholder="Your Name" />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Your Email"
+            />
+            <input type="number" name="number" placeholder="Your Number" />
             <textarea
               name="message"
               id="message"

@@ -16,10 +16,11 @@ const Home = () => {
             Web Programmer
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            reiciendis fuga velit eum accusantium, ut eligendi nostrum quod
-            accusamus aut itaque harum sunt temporibus. Iste soluta tempora
-            eligendi atque debitis.
+            I proficiently utilize technologies such as React, JavaScript,
+            Tailwind CSS, CSS, HTML and Next.js to develop user-friendly and
+            fast web applications. The combination of my design skills with
+            these technologies allows me to create modern and compelling user
+            interfaces.
           </p>
           <Link className="btn" to={'/about'}>
             About Me

@@ -18,15 +18,15 @@ const About = () => {
           <div className="about-left">
             <h3>I'm Ogün Karaoğlu</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero
-              iste sunt reiciendis temporibus quaerat illo, beatae ratione
-              consequuntur, enim dolorem architecto porro repudiandae at!
-              Inventore provident deserunt iure et.
+              As a senior student at Yildiz Technical University, studying in
+              the Computer Education and Instructional Technology Department, my
+              educational journey has equipped me with a rich tapestry of
+              experiences, fueling my passion for technology.
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Praesentium asperiores culpa in! Blanditiis dolorum consequuntur
-              vero enim molestiae dolor. Repellat!
+              Eager to transition into the professional realm as a front-end
+              developer, Iam excited about the prospect of contributing my
+              skills and enthusiasm to your esteemed company.
             </p>
             <a href={CV} download className="btn">
               Download CV{' '}
