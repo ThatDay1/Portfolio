@@ -103,7 +103,7 @@ export const portfolio = [
     {
         id: 1,
         img: protfoliImg1,
-        name: 'Project-1',
+        name: 'Modern-Business',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
         github: '#',
     },
@@ -118,6 +118,13 @@ export const portfolio = [
         id: 1,
         img: protfoliImg3,
         name: 'Project-3',
+        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
+        github: '#',
+    },
+    {
+        id: 1,
+        img: protfoliImg3,
+        name: 'Project-4',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
         github: '#',
     },
