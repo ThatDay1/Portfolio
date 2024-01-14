@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <p>
               Eager to transition into the professional realm as a front-end
-              developer, Iam excited about the prospect of contributing my
+              developer, i am excited about the prospect of contributing my
               skills and enthusiasm to your esteemed company.
             </p>
             <a href={CV} download className="btn">

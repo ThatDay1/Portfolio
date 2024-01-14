@@ -45,7 +45,7 @@ export const experience = [
 
 import image1 from '../../src/assets/javascript.png'
 import image2 from '../../src/assets/react.png'
-import image3 from '../../src/assets/tailwind.png'
+import image3 from '../../src/assets/typescript.png'
 import image4 from '../../src/assets/html.png'
 import image5 from '../../src/assets/node.png'
 import image6 from '../../src/assets/css.png'
