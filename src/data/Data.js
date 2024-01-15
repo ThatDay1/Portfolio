@@ -77,7 +77,7 @@ export const tools = [
 ];
 
 
-import { faCodeBranch, faCode, faCodeCompare, } from '@fortawesome/free-solid-svg-icons'
+import { faCodeBranch, faCode } from '@fortawesome/free-solid-svg-icons'
 export const services = [
     {
         id: 1,
@@ -114,35 +114,35 @@ export const portfolio = [
         id: 1,
         img: protfoliImg2,
         name: 'University-Website',
-        des: 'An implementation of a full responsive multi page',
+        des: 'An implementation of a University website with multiple pages',
         github: 'https://university-website-olive.vercel.app',
     },
     {
         id: 1,
         img: protfoliImg3,
         name: 'Barber-Shop',
-        des: 'An implementation of a barber shopping site useing html and css',
+        des: 'An implementation of a barber shopping site using html and css',
         github: 'https://barber-shop-ten-jade.vercel.app',
     },
     {
         id: 1,
         img: protfoliImg4,
         name: 'GPT-3-OpenAI-Website',
-        des: 'An implementation of a Modern UI/UX GPT-3 live site using React Js',
+        des: 'An implementation of a Modern UI/UX GPT-3 live website using React Js',
         github: 'https://gpt-3-open-ai-website.vercel.app',
     },
     {
         id: 1,
         img: protfoliImg5,
         name: 'Hiking-Landing',
-        des: 'An implementation of a hiking guide page',
+        des: 'An implementation of a captivating landing page designed specifically for hiking enthusiasts',
         github: 'https://hiking-landing-beta.vercel.app',
     },
     {
         id: 1,
         img: protfoliImg6,
-        name: 'Word-Guessing-Game',
-        des: 'An implementation of a guess game',
-        github: 'https://word-guessing-game-snowy.vercel.app',
+        name: 'Dining-Restaurant',
+        des: 'An implementation of a full responsive modern restaurant application',
+        github: 'https://dining-restaurant.vercel.app',
     },
 ];
