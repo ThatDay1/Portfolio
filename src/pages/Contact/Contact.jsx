@@ -24,7 +24,7 @@ const onSubmit = async (event) => {
 
   if (res.success) {
     console.log('Success', res)
-    alert('success')
+    location.reload()
   }
 }
 
