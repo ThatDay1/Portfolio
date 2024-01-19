@@ -11,6 +11,10 @@ const Nav = () => {
     setShowMenu(!showMenu)
   }
 
+  const closeMenu = () => {
+    setShowMenu(false)
+  }
+
   return (
     <nav>
       <ul className={`${showMenu ? 'navlinks navlinks-show' : 'navlinks'}`}>
@@ -22,6 +26,7 @@ const Nav = () => {
                 className={({ isActive }) =>
                   isActive ? 'nav-link navLinksActive' : 'nav-link'
                 }
+                onClick={closeMenu}
               >
                 <span>
                   <FontAwesomeIcon icon={icon} />

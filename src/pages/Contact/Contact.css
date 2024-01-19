@@ -15,9 +15,24 @@ textarea {
   resize: none;
 }
 
+section {
+  margin: 2rem auto 4rem;
+}
+
 .contact-container button {
   background: transparent;
   margin-top: 0 !important;
+}
+
+.submit-message {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 10rem auto 13rem;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 
 footer {
