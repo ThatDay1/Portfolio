@@ -3,6 +3,7 @@ import './Portfolio.css'
 import Card from '../../UI/Card.jsx'
 import HeadingText from '../../components/HeadingText/HeadingText.jsx'
 import { portfolio } from '../../data/Data.js'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
   return (
@@ -11,11 +12,12 @@ const Portfolio = () => {
       <div className="container portfolio-container">
         {portfolio.map(({ id, img, name, des, github }) => {
           return (
-            <Card classname={'project'} key={id}>
-              <img src={img} alt={name} />
+            <Card className={'project'} key={id}>
+              <Link to={github}>
+                <img className="project-img" src={img} alt={name} />
+              </Link>
               <h3>{name}</h3>
               <p>{des}</p>
-              <a href={github}>Github</a>
             </Card>
           )
         })}
