@@ -18,15 +18,16 @@ const About = () => {
           <div className="about-left">
             <h3>I'm Ogün Karaoğlu</h3>
             <p>
-              As a senior student at Yildiz Technical University, studying in
-              the Computer Education and Instructional Technology Department, my
-              educational journey has equipped me with a rich tapestry of
-              experiences, fueling my passion for technology.
+              As a recent graduate of Yildiz Technical University, where I
+              earned my degree in Computer Education and Instructional
+              Technology. My dedication and passion for technology have been the
+              driving forces behind my academic and professional journey.
             </p>
             <p>
-              Eager to transition into the professional realm as a front-end
-              developer, i am excited about the prospect of contributing my
-              skills and enthusiasm to your esteemed company.
+              Currently, I am gaining hands-on experience as a backend software
+              developer. This role allows me to apply my theoretical knowledge
+              in practical settings, further honing my skills and preparing me
+              for a successful career in tech.
             </p>
             <a href={CV} download className="btn">
               Download CV{' '}

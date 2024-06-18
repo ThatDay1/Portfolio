@@ -16,11 +16,13 @@ const Home = () => {
             Web Programmer
           </h1>
           <p>
-            I proficiently utilize technologies such as React, JavaScript,
-            Tailwind CSS, CSS, HTML and Next.js to develop user-friendly and
-            fast web applications. The combination of my design skills with
-            these technologies allows me to create modern and compelling user
-            interfaces.
+            I proficiently utilize technologies such as C#, .NET, React, and
+            Next.js to develop user-friendly and fast web applications. My
+            experience spans both frontend and backend development, allowing me
+            to create modern and compelling user interfaces as well as robust
+            and scalable backend systems. This combination of skills enables me
+            to deliver comprehensive, full-stack solutions that enhance user
+            experience and application performance.
           </p>
           <Link className="btn" to={'/about'}>
             About Me
